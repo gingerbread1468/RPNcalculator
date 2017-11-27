@@ -13,7 +13,7 @@ The calculator is comprised of four JavaScript files, each separated out into a 
 
 This architecture will allow for future expansion and the ability to add alternate interfaces such as WebSocket or TCP socket.
 
-The fifth JavaScript file, test.js, is for unit testing as the name indicates. It uses the mocha testing framework and is accompanied by a package.json file. If you don’t have mocha installed on your system, install it globally with the “npm install –g mocha” command. After installing mocha, you can run test.js by typing the following command in the test directory: 
+The fifth JavaScript file, test/test.js, is for unit testing as the name indicates. It uses the mocha testing framework and is accompanied by a package.json file. If you don’t have mocha installed on your system, install it globally with the “npm install –g mocha” command. After installing mocha, you can run test.js by typing the following command in the test directory: 
 
 npm test  
 
@@ -28,7 +28,7 @@ You’ll see the following output:
 Please enter a Postfix expression at the '>' and hit enter to evaluate it            
 (See examples of Postfix at https://en.wikipedia.org/wiki/Reverse_Polish_notation)   
                                                                                      
-To exit type 'q' and hit return or type Ctrl-D (Ctrl-C on Windows) 
+To exit type 'q' and hit enter or type Ctrl-D (Ctrl-C on Windows) 
 >
 
 You can then enter your PostFix expression and hit enter: 
