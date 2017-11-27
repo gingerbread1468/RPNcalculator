@@ -2,9 +2,9 @@
 
 This is an RPN calculator that runs from the command line and is written in JavaScript.
 
-The directory structure, i.e. the MVC architecture, looks like this, is divided into a controller directory, a view directory, a model directory, and a test directory.
+The directory structure, i.e. the MVC architecture, is divided into a controller directory, a view directory, a model directory, and a test directory.
 
-The calculator is comprised of four JavaScript files, each separated out into a separate directory for modularity and separation of concerns:
+The calculator is comprised of four JavaScript files, each separated out into a directory for modularity and separation of concerns:
 
 1. app.js – calls StdInStdOut.js
 2. view/StdInStdOut.js – handles the command line interface with process.stdin/process.stdout and requires processTokens.js and prepAndCallback.js. When it receives an input string it calls prepAndCallback.
